@@ -185,5 +185,6 @@
         <Button Style="{StaticResource btn_select}" Content="Rook"  Grid.Column="10" Grid.Row="6" FontWeight="Bold" FontSize="25"/>
         <Button Style="{StaticResource btn_select}" Content="Knight" Grid.Column="10" Grid.Row="7" FontWeight="Bold" FontSize="25"/>
 
+        <TextBlock Style="{StaticResource btn_clear}" Text="Clear" Grid.Column="10" Grid.Row="9" FontWeight="Bold" FontSize="30" Background="White"/>
     </Grid>
 </Window>
