@@ -8,7 +8,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessTaskThree", "ChessTask
 		{DFD78706-0E76-410B-8EB7-EB3AF34F373D} = {DFD78706-0E76-410B-8EB7-EB3AF34F373D}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureCore", "FigureCore\FigureCore.csproj", "{DFD78706-0E76-410B-8EB7-EB3AF34F373D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FigureCore", "FigureCore\FigureCore.csproj", "{DFD78706-0E76-410B-8EB7-EB3AF34F373D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureWPF", "FigureWPF\FigureWPF.csproj", "{7A7D83A8-218B-4758-B91E-7CE1EE273833}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{DFD78706-0E76-410B-8EB7-EB3AF34F373D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD78706-0E76-410B-8EB7-EB3AF34F373D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFD78706-0E76-410B-8EB7-EB3AF34F373D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7D83A8-218B-4758-B91E-7CE1EE273833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7D83A8-218B-4758-B91E-7CE1EE273833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7D83A8-218B-4758-B91E-7CE1EE273833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7D83A8-218B-4758-B91E-7CE1EE273833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

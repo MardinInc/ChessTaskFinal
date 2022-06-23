@@ -1,0 +1,139 @@
+﻿<Window x:Class="FigureWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FigureWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="535" Width="520">
+    <Grid Background="#FFEEC6A3">
+        <Button Content="" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="100,50,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="150,50,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+                Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="200,50,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="250,50,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="300,50,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="350,50,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="400,50,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="50,100,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="150,100,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="200,100,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="250,100,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="300,100,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="350,100,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="400,100,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="50,150,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="100,150,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="150,150,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="200,150,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="250,150,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="300,150,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="350,150,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="400,150,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="50,200,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="100,200,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="150,200,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="200,200,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="250,200,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="300,200,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="350,200,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="400,200,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="50,250,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="100,250,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="150,250,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="200,250,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="250,250,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="300,250,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="350,250,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="400,250,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="50,300,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="100,300,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="150,300,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="200,300,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="250,300,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="300,300,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="350,300,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="400,300,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="50,350,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="100,350,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="150,350,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="200,350,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="250,350,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="300,350,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="350,350,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="400,350,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="50,400,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="100,400,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="150,400,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="200,400,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="250,400,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="300,400,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="350,400,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFEEC6A3" BorderBrush="#FFCB7157"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="400,400,0,0" VerticalAlignment="Top" Height="50" Width="50" 
+            Click="Button_Click" Background="#FFCB7157" BorderBrush="#FFCB7157"/>
+    </Grid>
+</Window>
