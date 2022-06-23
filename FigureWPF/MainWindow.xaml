@@ -178,7 +178,8 @@
         <TextBlock Style="{StaticResource cordinate_style}" Text="g" Grid.Column="7" Grid.Row="9"/>
         <TextBlock Style="{StaticResource cordinate_style}" Text="h" Grid.Column="8" Grid.Row="9"/>
 
-        <Button Style="{StaticResource btn_select}" Content="Cursor"  Grid.Column="10" Grid.Row="1" FontWeight="Bold" FontSize="25"/>
+        <TextBlock Text="Active" TextAlignment="Center" Padding="10" Grid.Column="10" Grid.Row="1" FontWeight="Bold" FontSize="25" Foreground="Black" Background="#FFEEC6A3"/>
+        <Button Style="{StaticResource btn_select}" Content="Cursor"  Grid.Column="10" Grid.Row="2" FontWeight="Bold" FontSize="25"/>
         <Button Style="{StaticResource btn_select}" Content="King"  Grid.Column="10" Grid.Row="3" FontWeight="Bold" FontSize="25"/>
         <Button Style="{StaticResource btn_select}" Content="Queen"  Grid.Column="10" Grid.Row="4" FontWeight="Bold" FontSize="25"/>
         <Button Style="{StaticResource btn_select}" Content="Bishop"  Grid.Column="10" Grid.Row="5" FontWeight="Bold" FontSize="25"/>

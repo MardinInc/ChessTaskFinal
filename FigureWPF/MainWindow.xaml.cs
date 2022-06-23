@@ -95,10 +95,6 @@ namespace FigureWPF
             {
                 activeFigure = true;
             }
-            if(activeFigure)
-            {
-                MessageBox.Show("FigureSelect");
-            }
         }
 
         public string Symbol(string figure)
