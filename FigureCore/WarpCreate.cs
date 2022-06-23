@@ -12,26 +12,31 @@ namespace FigureCore
             {
                 case "KING":
                 case "K":
+                case "♔":
                     example = new King(x, y);
                     break;
 
                 case "QUEEN":
                 case "Q":
+                case "♕":
                     example = new Queen(x, y);
                     break;
 
                 case "BISHOP":
                 case "B":
+                case "♗":
                     example = new Bishop(x, y);
                     break;
 
                 case "ROOK":
                 case "R":
+                case "♖":
                     example = new Rook(x, y);
                     break;
 
                 case "KNIGHT":
                 case "N":
+                case "♘":
                     example = new Knight(x, y);
                     break;
 

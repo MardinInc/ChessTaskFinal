@@ -44,13 +44,13 @@ namespace FigureWPF
             {
                 if (activeFigure)
                 {
-                    btn.Content = activeCursor;
+                    btn.Content = Symbol(activeCursor);
                     piece = WarpCreate.Create(activeCursor.ToUpper(), x, y);
                 }
                 else
                 {
                     if (!btn.Content.Equals(""))
-                    {
+                    { 
                         btnStart = btn;
                         selectFigure = true;
                     }
@@ -96,6 +96,43 @@ namespace FigureWPF
             {
                 MessageBox.Show("FigureSelect");
             }
+        }
+
+        public string Symbol(string figure)
+        {
+            string pieceCode = figure.ToUpper();
+            string symbol;
+            switch (pieceCode)
+            {
+                case "KING":
+                case "K":
+                    symbol = "♔";
+                    break;
+
+                case "QUEEN":
+                case "Q":
+                    symbol = "♕";
+                    break;
+
+                case "BISHOP":
+                case "B":
+                    symbol = "♗";
+                    break;
+
+                case "ROOK":
+                case "R":
+                    symbol = "♖";
+                    break;
+
+                case "KNIGHT":
+                case "N":
+                    symbol = "♘";
+                    break;
+
+                default: throw (new Exception("Bad piece OR Bad location!"));
+            }
+
+            return symbol;
         }
     }
 }

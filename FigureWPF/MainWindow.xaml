@@ -13,6 +13,7 @@
             <Setter Property="Background" Value="#FFEFC9A5"/>
             <Setter Property="BorderBrush" Value="#FFC56B49"/>
             <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="FontSize" Value="45" />
             <EventSetter Event="Click" Handler="Button_Click"></EventSetter>
         </Style>
 
@@ -21,6 +22,7 @@
             <Setter Property="Background" Value="#FFC56B49" />
             <Setter Property="BorderBrush" Value="#FFC56B49"/>
             <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="FontSize" Value="45" />
             <EventSetter Event="Click" Handler="Button_Click"></EventSetter>
         </Style>
 
