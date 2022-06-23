@@ -95,6 +95,7 @@ namespace FigureWPF
             {
                 activeFigure = true;
             }
+            TxtBlck.Text = line[1];
         }
 
         public string Symbol(string figure)
