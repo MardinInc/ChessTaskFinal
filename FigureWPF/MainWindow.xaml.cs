@@ -25,11 +25,13 @@ namespace FigureWPF
         bool activeFigure = false;
         bool selectFigure = false;
         Button btnStart;
-        Button btnEnd;
+        Button btnClear;
         Button btn;
         Warp piece;
         int x;
         int y;
+
+
         public MainWindow()
         {
             InitializeComponent();
@@ -134,6 +136,11 @@ namespace FigureWPF
             }
 
             return symbol;
+        }
+
+        private void Button_Clear(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("To clear, double-click on the shape\nGood luck!");
         }
     }
 }

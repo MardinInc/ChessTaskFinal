@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:FigureWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="1080" Width="1920">
-    
+
     <Window.Resources>
         <Style x:Key="btn_White" TargetType="Button">
             <Setter Property="Content" Value="" />
@@ -185,6 +185,6 @@
         <Button Style="{StaticResource btn_select}" Content="Rook"  Grid.Column="10" Grid.Row="6" FontWeight="Bold" FontSize="25"/>
         <Button Style="{StaticResource btn_select}" Content="Knight" Grid.Column="10" Grid.Row="7" FontWeight="Bold" FontSize="25"/>
 
-        <TextBlock Style="{StaticResource btn_clear}" Text="Clear" Grid.Column="10" Grid.Row="9" FontWeight="Bold" FontSize="30" Background="White"/>
+        <Button   Content="Clear" Click="Button_Clear" Grid.Column="10" Grid.Row="9" FontWeight="Bold" FontSize="30" Background="White"/>
     </Grid>
 </Window>
