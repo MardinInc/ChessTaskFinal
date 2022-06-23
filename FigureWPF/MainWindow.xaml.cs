@@ -50,7 +50,8 @@ namespace FigureWPF
                 else
                 {
                     if (!btn.Content.Equals(""))
-                    { 
+                    {
+                        piece = WarpCreate.Create(btn.Content.ToString().ToUpper(), x, y);
                         btnStart = btn;
                         selectFigure = true;
                     }
