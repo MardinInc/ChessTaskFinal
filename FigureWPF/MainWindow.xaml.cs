@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using FigureCore;
 
 namespace FigureWPF
 {
@@ -20,9 +21,81 @@ namespace FigureWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        string activeCursor;
+        bool activeFigure = false;
+        bool selectFigure = false;
+        Button btnStart;
+        Button btnEnd;
+        Button btn;
+        Warp piece;
+        int x;
+        int y;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            btn = (Button)sender;
+            x = Grid.GetRow(btn);
+            y = Grid.GetColumn(btn);
+            if (!selectFigure)
+            {
+                if (activeFigure)
+                {
+                    btn.Content = activeCursor;
+                    piece = WarpCreate.Create(activeCursor.ToUpper(), x, y);
+                }
+                else
+                {
+                    if (!btn.Content.Equals(""))
+                    {
+                        btnStart = btn;
+                        selectFigure = true;
+                    }
+                    else
+                    {
+                        selectFigure = false;
+                    }
+                }
+            }
+            else
+            {
+                if(piece.Move(x, y))
+                {
+                    btn.Content = btnStart.Content;
+                    btnStart.Content = "";
+                }
+                else if(btnStart == btn)
+                {
+                    MessageBox.Show("Delete figure");
+                }
+                else
+                {
+                    MessageBox.Show("Can't move");
+                    btn.Content = "";
+                }
+                selectFigure = false;
+            }
+        }
+
+        private void Button_Click_Select(object sender, RoutedEventArgs e)
+        {
+            string[] line = sender.ToString().Split(" ");
+            activeCursor = line[1];
+            if(activeCursor == "Cursor")
+            {
+                activeFigure = false;
+            }
+            else
+            {
+                activeFigure = true;
+            }
+            if(activeFigure)
+            {
+                MessageBox.Show("FigureSelect");
+            }
         }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FigureWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="535" Width="520">
+        Title="MainWindow" Height="1080" Width="1920">
     
     <Window.Resources>
         <Style x:Key="btn_White" TargetType="Button">
@@ -13,35 +13,34 @@
             <Setter Property="Background" Value="#FFEFC9A5"/>
             <Setter Property="BorderBrush" Value="#FFC56B49"/>
             <Setter Property="BorderThickness" Value="3"/>
-
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#FFA3C3A3"/>
-                </Trigger>
-            </Style.Triggers>
-
+            <EventSetter Event="Click" Handler="Button_Click"></EventSetter>
         </Style>
 
         <Style x:Key="btn_Black" TargetType="Button">
             <Setter Property="Content" Value="" />
             <Setter Property="Background" Value="#FFC56B49" />
             <Setter Property="BorderBrush" Value="#FFC56B49"/>
-            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="BorderThickness" Value="3"/>
             <EventSetter Event="Click" Handler="Button_Click"></EventSetter>
-            <EventSetter Event="MouseEnter" Handler="Button_MouseEnter"></EventSetter>
-            <EventSetter Event="MouseLeave" Handler="Button_MouseLeave"></EventSetter>
+        </Style>
+
+        <Style x:Key="btn_select" TargetType="Button">
+            <Setter Property="Background" Value="White" />
+            <Setter Property="BorderBrush" Value="#FFC56B49"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <EventSetter Event="Click" Handler="Button_Click_Select"></EventSetter>
         </Style>
 
         <Style x:Key="cordinate_style" TargetType="TextBlock">
             <Setter Property="TextAlignment" Value="Center" />
-            <Setter Property="Padding" Value="10" />
+            <Setter Property="Padding" Value="12" />
             <Setter Property="FontSize" Value="15" />
+            <Setter Property="FontWeight" Value="UltraBold" />
             <Setter Property="MaxWidth" Value="160" />
 
             <Setter Property="Foreground" Value="Black" />
             <Setter Property="VerticalAlignment" Value="Stretch" />
             <Setter Property="HorizontalAlignment" Value="Stretch" />
-            <Setter Property="Background" Value="#FF853232" />
         </Style>
 
 
@@ -52,14 +51,17 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="40"/>
 
-            <ColumnDefinition Width="45*" MaxWidth="100"/>
-            <ColumnDefinition Width="45*" MaxWidth="100"/>
-            <ColumnDefinition Width="45*" MaxWidth="100"/>
-            <ColumnDefinition Width="45*" MaxWidth="100"/>
-            <ColumnDefinition Width="45*" MaxWidth="100"/>
-            <ColumnDefinition Width="45*" MaxWidth="100"/>
-            <ColumnDefinition Width="45*" MaxWidth="100"/>
-            <ColumnDefinition Width="45*" MaxWidth="100"/>
+            <ColumnDefinition Width="45*" MaxWidth="90"/>
+            <ColumnDefinition Width="45*" MaxWidth="90"/>
+            <ColumnDefinition Width="45*" MaxWidth="90"/>
+            <ColumnDefinition Width="45*" MaxWidth="90"/>
+            <ColumnDefinition Width="45*" MaxWidth="90"/>
+            <ColumnDefinition Width="45*" MaxWidth="90"/>
+            <ColumnDefinition Width="45*" MaxWidth="90"/>
+            <ColumnDefinition Width="45*" MaxWidth="90"/>
+            <ColumnDefinition Width="45*" MaxWidth="90"/>
+            <ColumnDefinition Width="45*" MaxWidth="90"/>
+            <ColumnDefinition Width="45*" MaxWidth="90"/>
 
             <ColumnDefinition Width="40"/>
         </Grid.ColumnDefinitions>
@@ -68,14 +70,14 @@
 
             <RowDefinition Height="40"/>
 
-            <RowDefinition Height="45*" MaxHeight="100"/>
-            <RowDefinition Height="45*" MaxHeight="100"/>
-            <RowDefinition Height="45*" MaxHeight="100"/>
-            <RowDefinition Height="45*" MaxHeight="100"/>
-            <RowDefinition Height="45*" MaxHeight="100"/>
-            <RowDefinition Height="45*" MaxHeight="100"/>
-            <RowDefinition Height="45*" MaxHeight="100"/>
-            <RowDefinition Height="45*" MaxHeight="100"/>
+            <RowDefinition Height="45*" MaxHeight="90"/>
+            <RowDefinition Height="45*" MaxHeight="90"/>
+            <RowDefinition Height="45*" MaxHeight="90"/>
+            <RowDefinition Height="45*" MaxHeight="90"/>
+            <RowDefinition Height="45*" MaxHeight="90"/>
+            <RowDefinition Height="45*" MaxHeight="90"/>
+            <RowDefinition Height="45*" MaxHeight="90"/>
+            <RowDefinition Height="45*" MaxHeight="90"/>
 
             <RowDefinition Height="40"/>
 
@@ -155,5 +157,31 @@
         <Button Style="{StaticResource btn_White}" Grid.Column="6" Grid.Row="8"/>
         <Button Style="{StaticResource btn_Black}" Grid.Column="7" Grid.Row="8"/>
         <Button Style="{StaticResource btn_White}" Grid.Column="8" Grid.Row="8"/>
+
+        <TextBlock Style="{StaticResource cordinate_style}" Text="8" Grid.Column="0" Grid.Row="1"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="7" Grid.Column="0" Grid.Row="2"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="6" Grid.Column="0" Grid.Row="3"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="5" Grid.Column="0" Grid.Row="4"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="4" Grid.Column="0" Grid.Row="5"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="3" Grid.Column="0" Grid.Row="6"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="2" Grid.Column="0" Grid.Row="7"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="1" Grid.Column="0" Grid.Row="8"/>
+
+        <TextBlock Style="{StaticResource cordinate_style}" Text="a" Grid.Column="1" Grid.Row="9"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="b" Grid.Column="2" Grid.Row="9"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="c" Grid.Column="3" Grid.Row="9"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="d" Grid.Column="4" Grid.Row="9"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="e" Grid.Column="5" Grid.Row="9"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="f" Grid.Column="6" Grid.Row="9"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="g" Grid.Column="7" Grid.Row="9"/>
+        <TextBlock Style="{StaticResource cordinate_style}" Text="h" Grid.Column="8" Grid.Row="9"/>
+
+        <Button Style="{StaticResource btn_select}" Content="Cursor"  Grid.Column="10" Grid.Row="1" FontWeight="Bold" FontSize="25"/>
+        <Button Style="{StaticResource btn_select}" Content="King"  Grid.Column="10" Grid.Row="3" FontWeight="Bold" FontSize="25"/>
+        <Button Style="{StaticResource btn_select}" Content="Queen"  Grid.Column="10" Grid.Row="4" FontWeight="Bold" FontSize="25"/>
+        <Button Style="{StaticResource btn_select}" Content="Bishop"  Grid.Column="10" Grid.Row="5" FontWeight="Bold" FontSize="25"/>
+        <Button Style="{StaticResource btn_select}" Content="Rook"  Grid.Column="10" Grid.Row="6" FontWeight="Bold" FontSize="25"/>
+        <Button Style="{StaticResource btn_select}" Content="Knight" Grid.Column="10" Grid.Row="7" FontWeight="Bold" FontSize="25"/>
+
     </Grid>
 </Window>
